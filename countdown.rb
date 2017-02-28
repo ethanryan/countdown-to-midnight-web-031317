@@ -2,7 +2,7 @@
 
 def countdown(number_of_times)
   x = 10
-  until x < 0 #AKA until x == 0
+  until x < 1 #AKA until x == 0
     puts "#{x} SECOND(S)!"
     x -= 1
   end #end until loop
